@@ -1,0 +1,19 @@
+<?php
+
+function pet_menu() {
+    $items = array();
+    $items['tipper_the_dog'] = array(
+            'title' => "Tipper!",
+            'page callback' => 'meet_tipper',
+            'access callback' => TRUE,
+            'type' => MENU_NORMAL_ITEM,
+        );
+    return $items;
+
+}
+
+function meet_tipper() {
+    $sentence = '<p>Tippper is a beautiful lady foxhound.</p>';
+    $link = '<a href="https://www.instagram.com/explore/tags/tipperthedog/">Look at her pictures</a>';
+    return '<p>Tippper is a beautiful lady foxhound.</p>';
+}
