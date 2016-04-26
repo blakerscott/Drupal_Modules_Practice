@@ -13,7 +13,8 @@ function pet_menu() {
 }
 
 function meet_tipper() {
-    $sentence = '<p>Tippper is a beautiful lady foxhound.</p>';
-    $link = '<a href="https://www.instagram.com/explore/tags/tipperthedog/">Look at her pictures</a>';
-    return '<p>Tippper is a beautiful lady foxhound.</p>';
+    $link = '<img src="sites/all/modules/images/tipper.PNG" width=200px>
+    <p>Tippper is a beautiful lady foxhound.</p>
+    <a href="https://www.instagram.com/explore/tags/tipperthedog/">Here are more pictures of this beautiful pup!</a>';
+    return $link;
 }
