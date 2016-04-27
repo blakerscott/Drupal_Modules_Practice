@@ -1,5 +1,5 @@
 name = Pet
 description = Show info about Tipper.
-package = My First Modules
+package = New Modules
 core = 7.x
 files[] = pet.module
